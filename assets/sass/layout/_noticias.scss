@@ -1,0 +1,24 @@
+.content {
+   margin: 0 auto;
+}
+
+.noticia {
+    margin: 0.3125rem;
+    cursor: pointer;
+}
+
+.noticia__cuerpo img {
+    width: 100%;
+}
+
+.noticia__cuerpo p {
+    padding: 0.3125rem  0.625rem;
+}
+
+@media only screen and (max-width: 576px) {
+ .noticia__cuerpo img {
+   width: 70%;
+   display: block;
+   margin: auto;
+ }
+}

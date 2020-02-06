@@ -1,0 +1,10 @@
+//Aside
+.aside__nosotros {
+    border-bottom: 0.0625rem solid gray;
+}
+
+@media only screen and (max-width: 576px) {
+ aside {
+   display: none;
+ }
+}

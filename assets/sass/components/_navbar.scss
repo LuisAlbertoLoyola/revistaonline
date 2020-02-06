@@ -1,0 +1,41 @@
+.nav__menu {
+  width: 100%;
+}
+
+.nav__components {
+    width: 100%;
+    padding: 0.625rem;
+    border-bottom: 0.0625rem solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__options {
+   width: 45%;
+  }
+
+.nav__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+
+.nav__items {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+}
+
+@media only screen and (max-width: 767px) {
+  .nav__options {
+    width: 70%;
+}
+ .nav__items {
+   li:first-child {
+     display: none
+   }
+ }
+}
